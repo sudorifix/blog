@@ -70,7 +70,6 @@ google_fonts:
     weights: "400"
   - name: "Titillium Web" # sserif: description
     weights: "400,400i,600,600i"
-port: 4444
 
 # Liquid settings
 liquid:
