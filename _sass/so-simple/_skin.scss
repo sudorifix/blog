@@ -13,12 +13,12 @@ a {
   color: $info-color;
 
   &:hover {
-    color: shade($primary-color, 25%);
+    color: $accent-color;
   }
 }
 
 blockquote {
-  background-color: $code-background-color;
+  background-color: mix($background-color, $info-color, 90%);
   border-left-color: $primary-color;
 }
 
@@ -33,18 +33,18 @@ blockquote {
 }
 
 .copyright {
-  color: lighten($text-color, 35%);
+  color: lighten($text-color, 25%);
   a {
-    color: lighten($text-color, 35%);
+    color: lighten($text-color, 25%);
   }
 }
 
 .taxonomy-title {
-  color: lighten($text-color, 60%);
+  color: $primary-color;
 }
 
 .taxonomy-count {
-  color: lighten($text-color, 50%);
+  color: lighten($text-color, 25%);
 }
 
 .taxonomy-index {
@@ -64,7 +64,7 @@ blockquote {
 }
 
 .back-to-top {
-  color: lighten($text-color, 50%);
+  color: lighten($text-color, 25%);
 }
 
 .site-nav {
@@ -100,7 +100,7 @@ blockquote {
 
   h2 {
     color: $text-color;
-    background-color: lighten($code-background-color, 5%);
+    background-color: mix($background-color, $info-color, 90%);
   }
 
   li {
