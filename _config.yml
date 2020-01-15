@@ -100,6 +100,12 @@ read_time: true
 words_per_minute: 200
 mathjax: # MathJax equations, e.g. true
 
+# Collection settings
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
 # Footer settings
 footer_links:
   - title: Feed
