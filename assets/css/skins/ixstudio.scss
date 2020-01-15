@@ -9,16 +9,16 @@
 
 /* Colors */
 $primary-color: #31ac94 !default; // green-cyan
-$accent-color: #66b6cc !default; // mid blue
+$accent-color: #4682b4 !default; // steel blue
 
-$base-color: #f1f3f3 !default; // very light cyan
-$text-color: #f1f3f3 !default;
-$background-color: #1f334a !default; // cyan-blue
+$base-color: #1f334a !default; // cyan-blue
+$text-color: #1f334a !default;
+$background-color: #f2f3f4 !default; // anti-flash white
 
 $success-color: #45af66 !default; // green
 $warning-color: #f89406 !default; // gold-brown
 $danger-color: #f44336 !default; // red
-$info-color: #66b6cc !default; // mid blue
+$info-color: #4682b4 !default; // steel blue
 
 $nav-color: $base-color !default;
 $nav-background-color: $primary-color !default;
@@ -26,22 +26,22 @@ $code-background-color: mix($background-color, $info-color, 90%) !default;
 $border-color: $primary-color !default;
 
 /* Syntax highlighting (base16) colors */
-$base00: #263238 !default;
-$base01: #2e3c43 !default;
-$base02: #314549 !default;
-$base03: #546e7a !default;
-$base04: #b2ccd6 !default;
-$base05: #eeffff !default;
-$base06: #eeffff !default;
-$base07: #ffffff !default;
-$base08: #f07178 !default;
-$base09: #f78c6c !default;
-$base0a: #ffcb6b !default;
-$base0b: #c3e88d !default;
-$base0c: #89ddff !default;
-$base0d: #82aaff !default;
-$base0e: #c792ea !default;
-$base0f: #ff5370 !default;
+$base00: #fafafa !default; // white
+$base01: #073642 !default; // navy blue
+$base02: #586e75 !default; // grey
+$base03: #657b83 !default; // grey
+$base04: #839496 !default; // grey
+$base05: #586e75 !default; // grey
+$base06: #eee8d5 !default; // cream
+$base07: #fdf6e3 !default; // light yellow
+$base08: #dc322f !default; // red
+$base09: #cb4b16 !default; // orange
+$base0a: #b58900 !default; // gold
+$base0b: #22ab22 !default; // green
+$base0c: #2aa198 !default; // teal
+$base0d: #268bd2 !default; // blue
+$base0e: #6c71c4 !default; // mauve
+$base0f: #d33682 !default; // pink
 
 
 @import "so-simple/skin";
